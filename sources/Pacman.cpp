@@ -1,4 +1,4 @@
-#include "Pacman.h"
+#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\Pacman.h"
 
 #include "allegro5/allegro.h"
 

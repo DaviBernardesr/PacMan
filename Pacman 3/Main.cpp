@@ -11,12 +11,12 @@
 #include "allegro5/allegro_native_dialog.h"
 #include "allegro5/allegro_font.h"//Biblioteca de Fonte
 #include "allegro5/allegro_ttf.h"//Biblioteca de Texto
-#include "Pilula.h"
-#include "Bloco.h"
-#include "Pacman.h"
-#include "InimigosAleatorios.h"
-#include "Inimigos.h"
-#include "InimigosInteligentes.h"
+#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\Pilula.h"
+#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\Bloco.h"
+#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\Pacman.h"
+#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\InimigosAleatorios.h"
+#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\Inimigos.h"
+#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\InimigosInteligentes.h"
 
 const float FPS = 60;
 

@@ -24,7 +24,7 @@
     <ProjectGuid>{93fc3c80-7628-4eed-b4fc-20c549f5415f}</ProjectGuid>
     <RootNamespace>Pacman3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Pacman FINAL</ProjectName>
+    <ProjectName>Pacman</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -145,23 +145,23 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bloco.cpp" />
-    <ClCompile Include="Inimigos.cpp" />
-    <ClCompile Include="InimigosAleatorios.cpp" />
-    <ClCompile Include="InimigosInteligentes.cpp" />
+    <ClCompile Include="..\sources\Bloco.cpp" />
+    <ClCompile Include="..\sources\Inimigos.cpp" />
+    <ClCompile Include="..\sources\InimigosAleatorios.cpp" />
+    <ClCompile Include="..\sources\InimigosInteligentes.cpp" />
+    <ClCompile Include="..\sources\Movimentacao.cpp" />
+    <ClCompile Include="..\sources\Pacman.cpp" />
+    <ClCompile Include="..\sources\Pilula.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Movimentacao.cpp" />
-    <ClCompile Include="Pacman.cpp" />
-    <ClCompile Include="Pilula.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Bloco.h" />
-    <ClInclude Include="Inimigos.h" />
-    <ClInclude Include="InimigosAleatorios.h" />
-    <ClInclude Include="InimigosInteligentes.h" />
-    <ClInclude Include="Movimentacao.h" />
-    <ClInclude Include="Pacman.h" />
-    <ClInclude Include="Pilula.h" />
+    <ClInclude Include="..\headers\Bloco.h" />
+    <ClInclude Include="..\headers\Inimigos.h" />
+    <ClInclude Include="..\headers\InimigosAleatorios.h" />
+    <ClInclude Include="..\headers\InimigosInteligentes.h" />
+    <ClInclude Include="..\headers\Movimentacao.h" />
+    <ClInclude Include="..\headers\Pacman.h" />
+    <ClInclude Include="..\headers\Pilula.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="bloco.png" />

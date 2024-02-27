@@ -1,4 +1,4 @@
-#include "Pilula.h"
+#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\Pilula.h"
 #include "allegro5/allegro.h"
 #include <stdlib.h>
 #include <string.h>
