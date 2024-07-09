@@ -1,4 +1,4 @@
-#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\InimigosAleatorios.h"
+#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman\headers\InimigosAleatorios.h"
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
@@ -103,8 +103,8 @@ void InimigosAleatorios::SorteioDirecao(vector<vector<int>>& mapa, float x, floa
     //Verifica cada pos. que o inimigo pode estar indo.
     if (Esquerda == true)
     {
-        //Ele verifica cada pos. possível de ser assumida, e salva nas possibilidades.
-        //Pode assumir estes 3 caminhos, para não andar para tras.
+        //Ele verifica cada pos. possivel de ser assumida, e salva nas possibilidades.
+        //Pode assumir estes 3 caminhos, para nao andar para tras.
         //Esquerda
         if (ColisaoInimigosEsquerda(mapa) == true)
         {
@@ -236,7 +236,7 @@ void InimigosAleatorios::SorteioDirecao(vector<vector<int>>& mapa, float x, floa
     }
 
 
-    //Quando o jogo inicia, cai neste else porque está parado.
+    //Quando o jogo inicia, cai neste else porque esta parado.
     else
     {
         //Esquerda
@@ -277,7 +277,7 @@ void InimigosAleatorios::SorteioDirecao(vector<vector<int>>& mapa, float x, floa
     }
 }
 
-//Verifica qual a direcao pode ser liberada sem colisao, verifica se não está voltando para trás.
+//Verifica qual a direcao pode ser liberada sem colisao, verifica se não esta voltando para trás.
 void InimigosAleatorios::ComandosInimigos(vector<vector<int>>& mapa) {
     //Cima
     if (Instrucao == ALLEGRO_KEY_UP && ColisaoInimigosCima(mapa) == true && Baixo != true && Cima != true)

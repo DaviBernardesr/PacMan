@@ -1,8 +1,9 @@
-#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\Pilula.h"
-#include "allegro5/allegro.h"
+#include "D:\\Arquivos\\UFV\\COMP. ORIENTA A OBJETOS\\PROJETO PACMAN (OO)\\Pacman\\headers\\Pilula.h"
+#include <iostream>
 #include <stdlib.h>
-#include <string.h>
 #include <stdio.h>
+#include<math.h>
+#include<time.h>
 
 Pilula::Pilula() {
 	pilula = NULL;
@@ -31,7 +32,7 @@ int Pilula::getPirulaY()const
 
 //Carrega a pilula.
 void Pilula::setPilula() {
-	pilula = al_load_bitmap("pilula.png");
+	pilula = al_load_bitmap("D:\\Arquivos\\UFV\\COMP. ORIENTA A OBJETOS\\PROJETO PACMAN (OO)\\Pacman\\assets\\images\\pilula.png");
 }
 
 void Pilula::setPirulaImg(ALLEGRO_BITMAP* Bmp)

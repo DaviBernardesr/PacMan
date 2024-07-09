@@ -5,84 +5,97 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include=".h">
+    <Filter Include="Headers">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include=".cpp">
+    <Filter Include="Sources">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>.cpp</Filter>
-    </ClCompile>
     <ClCompile Include="..\sources\Bloco.cpp">
-      <Filter>.cpp</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\sources\Inimigos.cpp">
-      <Filter>.cpp</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\sources\InimigosAleatorios.cpp">
-      <Filter>.cpp</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\sources\InimigosInteligentes.cpp">
-      <Filter>.cpp</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\sources\Movimentacao.cpp">
-      <Filter>.cpp</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\sources\Pacman.cpp">
-      <Filter>.cpp</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="..\sources\Pilula.cpp">
-      <Filter>.cpp</Filter>
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\Main.cpp">
+      <Filter>Sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\headers\Bloco.h">
-      <Filter>.h</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\headers\Inimigos.h">
-      <Filter>.h</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\headers\InimigosAleatorios.h">
-      <Filter>.h</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\headers\InimigosInteligentes.h">
-      <Filter>.h</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\headers\Movimentacao.h">
-      <Filter>.h</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\headers\Pacman.h">
-      <Filter>.h</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="..\headers\Pilula.h">
-      <Filter>.h</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="bloco.png">
+    <Font Include="Roboto-Regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\assets\images\bloco.png">
       <Filter>Arquivos de Recurso</Filter>
     </Image>
-    <Image Include="fundo.png">
+    <Image Include="..\assets\images\fundo.png">
       <Filter>Arquivos de Recurso</Filter>
     </Image>
-    <Image Include="pacman.png">
+    <Image Include="..\assets\images\Inimigos.png">
       <Filter>Arquivos de Recurso</Filter>
     </Image>
-    <Image Include="pilula.png">
+    <Image Include="..\assets\images\InimigosT.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="..\assets\images\pacman.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="..\assets\images\pilula.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="..\assets\images\RL.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="..\assets\images\TB.png">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="..\assets\images\transparente.png">
       <Filter>Arquivos de Recurso</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <Font Include="Roboto-Regular.ttf">
-      <Filter>Arquivos de Recurso</Filter>
-    </Font>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

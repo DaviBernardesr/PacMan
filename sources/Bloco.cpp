@@ -1,4 +1,4 @@
-#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\Bloco.h"
+#include "D:\\Arquivos\\UFV\\COMP. ORIENTA A OBJETOS\\PROJETO PACMAN (OO)\\Pacman\\headers\\Bloco.h"
 #include "allegro5/allegro.h"
 #include <stdlib.h>
 #include <string.h>
@@ -21,7 +21,7 @@ Bloco::~Bloco() {
 
 //Carrega o bloco.
 void Bloco::setBloco() {
-	bloco = al_load_bitmap("bloco.png");
+	bloco = al_load_bitmap("D:\\Arquivos\\UFV\\COMP. ORIENTA A OBJETOS\\PROJETO PACMAN (OO)\\Pacman\\assets\\images\\bloco.png");
 }
 
 void Bloco::desenha_bloco() {

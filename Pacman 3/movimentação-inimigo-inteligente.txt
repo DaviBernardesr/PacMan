@@ -1,3 +1,0 @@
-A função de sorteio da direção calcula a diferença entre a posição do pacman X e Y e do inimigo inteligente e armazena na variável
-distanciaPacman(X e Y).
-Após feito o cálculo toma a escolha de direção de acordo com a maior distância tentando reduzir para chegar até o pacman.

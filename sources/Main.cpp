@@ -11,13 +11,13 @@
 #include "allegro5/allegro_native_dialog.h"
 #include "allegro5/allegro_font.h"//Biblioteca de Fonte
 #include "allegro5/allegro_ttf.h"//Biblioteca de Texto
-#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\Pilula.h"
-#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\Bloco.h"
-#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\Pacman.h"
-#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\InimigosAleatorios.h"
-#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\Inimigos.h"
-#include "D:\Arquivos\UFV\COMP. ORIENTA A OBJETOS\PROJETO PACMAN (OO)\Pacman FINAL\headers\InimigosInteligentes.h"
-
+#include "D:\\Arquivos\\UFV\\COMP. ORIENTA A OBJETOS\\PROJETO PACMAN (OO)\\Pacman\\headers\\Pilula.h"
+#include "D:\\Arquivos\\UFV\\COMP. ORIENTA A OBJETOS\\PROJETO PACMAN (OO)\\Pacman\\headers\\Bloco.h"
+#include "D:\\Arquivos\\UFV\\COMP. ORIENTA A OBJETOS\\PROJETO PACMAN (OO)\\Pacman\\headers\\Pacman.h"
+#include "D:\\Arquivos\\UFV\\COMP. ORIENTA A OBJETOS\\PROJETO PACMAN (OO)\\Pacman\\headers\\InimigosAleatorios.h"
+#include "D:\\Arquivos\\UFV\\COMP. ORIENTA A OBJETOS\\PROJETO PACMAN (OO)\\Pacman\\headers\\Inimigos.h"
+#include "D:\\Arquivos\\UFV\\COMP. ORIENTA A OBJETOS\\PROJETO PACMAN (OO)\\Pacman\\headers\\InimigosInteligentes.h"
+#include "D:\\Arquivos\\UFV\\COMP. ORIENTA A OBJETOS\\PROJETO PACMAN (OO)\\Pacman\\headers\\Movimentacao.h"
 const float FPS = 60;
 
 using namespace std;
@@ -59,7 +59,7 @@ int main() {
 	ALLEGRO_TIMER* timer = al_create_timer(1.0 / 60);
 	ALLEGRO_EVENT event;
 	ALLEGRO_EVENT_QUEUE* queue = al_create_event_queue();
-	ALLEGRO_FONT* Fonte = al_load_font("Roboto-Regular.ttf", 30, 0); //Crição de Variavel de Fonte
+	ALLEGRO_FONT* Fonte = al_load_font("D:\\Arquivos\\UFV\\COMP. ORIENTA A OBJETOS\\PROJETO PACMAN (OO)\\Pacman\\assets\\fonts\\Roboto-Regular.ttf", 30, 0); //Crição de Variavel de Fonte
 
 	//Def. das variaveis lógicas do programa.
 	bool done = false;
@@ -90,11 +90,11 @@ int main() {
 	Pilula* p = new Pilula[130];
 	Pacman pacman;
 	
-	ALLEGRO_BITMAP* bmpPacman = al_load_bitmap("pacman.png");
+	ALLEGRO_BITMAP* bmpPacman = al_load_bitmap("D:\\Arquivos\\UFV\\COMP. ORIENTA A OBJETOS\\PROJETO PACMAN (OO)\\Pacman\\assets\\images\\pacman.png");
 
-	ALLEGRO_BITMAP* bmpInimigos = al_load_bitmap("InimigosT.png");
+	ALLEGRO_BITMAP* bmpInimigos = al_load_bitmap("D:\\Arquivos\\UFV\\COMP. ORIENTA A OBJETOS\\PROJETO PACMAN (OO)\\Pacman\\assets\\images\\InimigosT.png");
 
-	ALLEGRO_BITMAP* bmpfundo = al_load_bitmap("fundo.png");
+	ALLEGRO_BITMAP* bmpfundo = al_load_bitmap("D:\\Arquivos\\UFV\\COMP. ORIENTA A OBJETOS\\PROJETO PACMAN (OO)\\Pacman\\assets\\images\\fundo.png");
 
 	//Spawn do pacman.
 	pacman.setPacman(bmpPacman, 288,226);
@@ -276,6 +276,8 @@ int main() {
 
 
 	}
+
+
 
 	al_destroy_timer(timer);
 	al_destroy_event_queue(queue);
